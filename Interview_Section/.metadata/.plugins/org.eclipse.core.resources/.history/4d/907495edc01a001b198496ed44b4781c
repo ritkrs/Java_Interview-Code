@@ -1,0 +1,27 @@
+package ImmutableHashMap;
+
+public class Account {
+	private int accountNo;
+	private String holderName;
+	
+	
+	public Account() {
+		
+		// TODO Auto-generated constructor stub
+	}
+	public int getAccountNo() {
+		return accountNo;
+	}
+	public void setAccountNo(int accountNo) {
+		this.accountNo = accountNo;
+	}
+	public String getHolderName() {
+		return holderName;
+	}
+	public void setHolderName(String holderName) {
+		this.holderName = holderName;
+	}
+	
+	
+
+}

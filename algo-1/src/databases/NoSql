@@ -1,0 +1,10 @@
+** NOSQL:-
+______________
+** NOSQL is Non-Relational database.
+** This is because data is stored in the form of collections with no or few relations between them.
+
+** SQL:-
+______________
+** SQL is a relational database
+** And its organizes structured data into defined rows and columns,with each table being related to the other
+   tables in the database.

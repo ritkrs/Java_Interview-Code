@@ -1,0 +1,12 @@
+package abcd;
+
+import java.util.List;
+
+public class Emploee {
+	String name;
+	int age;
+	List<String> list;
+	
+	
+
+}

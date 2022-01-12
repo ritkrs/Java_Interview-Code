@@ -1,0 +1,64 @@
+package abc;
+
+public class linkedList 
+{ 
+	public static void main(String[] args) 
+	{ 
+		List<String> list1 = new LinkedList<>(); 
+		list1.add("Geeks"); 
+		list1.add("for"); 
+		list1.add("Geeks"); 
+		list1.add("GFG"); 
+		list1.add("GeeksforGeeks"); 
+
+		List<String> list2 = new LinkedList<>(); 
+		list2.add("Geeks"); 
+
+		list1.removeAll(list2); 
+
+		for (String temp : list1) 
+			System.out.printf(temp + " "); 
+
+		System.out.println(); 
+	} 
+} 
+
+Output:: 
+From SHEETALAPRASAD to Everyone:  10:17 AM
+5.
+public class Demo{ 
+    public static void main(String[] arr){ 
+          
+    } 
+    public static void main(String arr){ 
+          
+    } 
+} 
+
+Output:: 
+
+6. import java.util.*; 
+
+public class linkedList 
+{ 
+	public static void main(String[] args) 
+	{ 
+		List<String> list1 = new LinkedList<>(); 
+		list1.add("Geeks"); 
+		list1.add("for"); 
+		list1.add("Geeks"); 
+		list1.add("GFG"); 
+		list1.add("GeeksforGeeks"); 
+
+		List<String> list2 = new LinkedList<>(); 
+		list2.add("Geeks"); 
+
+		list1.removeAll(list2); 
+
+		for (String temp : list1) 
+			System.out.printf(temp + " "); 
+
+		System.out.println(); 
+	} 
+} 
+

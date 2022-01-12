@@ -1,0 +1,2 @@
+* insert into person values(1,2,22,2000);
+* insert into person(id,keyno,lockno)values(2,8,7);

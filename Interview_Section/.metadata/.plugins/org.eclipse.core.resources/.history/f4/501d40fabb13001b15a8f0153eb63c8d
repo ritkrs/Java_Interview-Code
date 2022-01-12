@@ -1,0 +1,12 @@
+package comparator;
+
+import java.util.Comparator;
+
+class MySalaryComp implements Comparator<Empl>{
+
+	@Override
+	public int compare(Empl o1, Empl o2) {
+		return o1.getName().compareTo(o2.getName());
+	}
+	
+}

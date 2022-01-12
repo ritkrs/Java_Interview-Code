@@ -1,0 +1,2 @@
+* Write an sql Query to find names of employees start with "A"?
+  Ans:- Select * from employees where employee empName like "A%";

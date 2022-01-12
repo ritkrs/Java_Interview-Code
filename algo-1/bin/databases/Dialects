@@ -1,0 +1,3 @@
+<property name="dialect">Org.hibernate.dialect.Oracle9Dialect</dialect>
+
+** For connect any hibernate application with db,We need to specify dialect property.

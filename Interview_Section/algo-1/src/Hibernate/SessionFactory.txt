@@ -1,0 +1,5 @@
+What is Session Factory:-
+_______________________________________________________________________________________________________________________   
+** Sessionfactory provides the instance of session>It is the factory session.
+** It holds the data of 2nd level cache that is not enabled default.
+** Org.hibernate.sessionFactory interface provides factory method to get session object.

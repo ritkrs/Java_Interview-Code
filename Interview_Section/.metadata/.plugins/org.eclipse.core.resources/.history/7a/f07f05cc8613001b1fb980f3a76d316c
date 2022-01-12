@@ -1,0 +1,14 @@
+package practice1;
+
+import java.util.ArrayList;
+
+public class EmployeeMain {
+	Employee e1=new Employee(1,"Ritesh","kumar");
+	Employee e2=new Employee(2,"vijay","kumar");
+	Employee e3=new Employee(1,"sanjay","kumar");
+	Employee e4=new Employee(1,"Ajay","kumar");
+public static void main(String[] args) {
+	
+}
+	
+}

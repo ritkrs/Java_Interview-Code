@@ -1,0 +1,31 @@
+package abc;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Abc {
+	public void addOn(String str)
+	{
+		
+	}
+	public static void main(String[] args) {
+		
+		String[] arr = {"ramesh","interview","interview", "ramesh", "ramesh", "interview"};
+		char[] ch=new char[arr.length];
+		ArrayList a1=new ArrayList(arr.length);
+		
+		
+		
+		for (int i = 0; i < ch.length; i++) {
+			if(ch[i]==',')
+			{
+			a1.add(e)
+			}
+			
+		}
+		
+		
+	}
+
+}

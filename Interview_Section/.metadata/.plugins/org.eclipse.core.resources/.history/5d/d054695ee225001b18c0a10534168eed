@@ -1,0 +1,2 @@
+** AUTO INCREMENT:- Create table Student( id int(11) NOT NULL AUTO_INCREMENT,firstName varchar(255) default null,
+                    lastName varchar(255) default null, email varchar(255) default null,primary key(id));

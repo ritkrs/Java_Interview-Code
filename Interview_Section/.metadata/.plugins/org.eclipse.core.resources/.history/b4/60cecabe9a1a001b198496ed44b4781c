@@ -1,0 +1,6 @@
+package functionalinterface;
+
+public interface Abc {
+	public abstract void m1();
+	
+}

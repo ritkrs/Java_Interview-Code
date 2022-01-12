@@ -1,0 +1,24 @@
+** Important Sql Queries:-
+_____________________________________________________________________________________________________________________		 
+* select name from person where salary = 35000;
+* select name from person where salary =select max (salary) from person;
+* select * from person where salary=2000;
+* select * from person where salary=(select min(salary)from person);
+* select max(salary) from person where salary<(select max(salary)from person); //2nd Max.
+* select min (salary) from person where salary>(select min(salary)from person); //2nd Min
+* select * from person where salary=(select max(salary) from person where salary <
+  select(select max(salary)from person)); //3rd Maximum.
+  
+* select * from employee where salary=(select min(salary)from employee where salary>
+  (select min(salary)from employee where salary>
+  select(min(salary)from employee))); //3rd Minimum
+  
+* Select salary from employee order by salary DESC LIMIT 2,1; //3rd highes salary by using limit clause.
+* Select salary from employee ORDER BY salary DESC LIMIT n-1,1;  
+  
+* select * from employee 
+  where salary=(select min(salary)from employee
+  where salary>(select min(salary)from employee
+  where salary>(select min(salary)from employee
+  where salary>(select min(salary)from employee)))); //4th Minimum Salary
+  

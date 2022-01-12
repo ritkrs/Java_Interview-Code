@@ -1,0 +1,9 @@
+** SQL Functions:-
+______________________________________________________________________________________________________
+* Functions are measured values and cannot create permanent environment changes to sql server.
+
+* SQL Functions are used for following purposes:-
+  * To perform calculations on data.
+  * To Modify individual data items.
+  * To Manipulate the O/P.
+  * To Convert data types.

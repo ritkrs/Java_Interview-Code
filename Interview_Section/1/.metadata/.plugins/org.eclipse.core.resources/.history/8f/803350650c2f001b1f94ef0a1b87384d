@@ -1,0 +1,7 @@
+package abcd;
+
+import java.util.HashMap;
+
+public class Singleton {
+	
+}

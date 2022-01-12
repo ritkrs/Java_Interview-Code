@@ -1,0 +1,9 @@
+
+public class UserBuilder {
+	private final String firstName;
+	private final String lastName;
+	private int age;
+	private String phone;
+	private String address;
+
+}

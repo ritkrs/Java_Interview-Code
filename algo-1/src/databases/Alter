@@ -1,0 +1,3 @@
+** Alter table:- The other table statement is used to add,delete,or modify columns in a existing table.
+   The Alter table statement is also used to add and drop various constraints an existing table.
+   E.g:- Alter table persons Add DateOfBirth date;

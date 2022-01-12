@@ -1,0 +1,36 @@
+package abcd;
+
+public class Permutations {
+	public static void main(String[] args) {
+		String str="abcd";
+		int n=str.length();
+		Permutations permutations=new Permutations();
+		permutations.permute(str,0,n-1);
+		
+		
+	}
+	public void permute(String str,int 1,int r)
+	{
+		if(1==r)
+			System.out.println(r);
+		else {
+			for (int i = 0; i <=r; i++) {
+				str=swap(str, 1, i);
+				permute(str,1+1,r);
+				str=swap(str, 1, i);
+				
+			}
+		}
+	}
+	public String swap(String a,int i,int j)
+	{
+		char temp;
+		char[] charArray=a.toCharArray();
+		temp=charArray[i];
+		charArray[i]=charArray[j];
+		charArray[j]=temp;
+		return String.valueOf(charArray);
+		
+	}
+
+}

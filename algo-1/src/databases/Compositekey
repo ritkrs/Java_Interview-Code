@@ -1,0 +1,5 @@
+Composite key:-
+________________
+** Composite key is a key which is the combination of more than one field or column of a given table.
+   It may be candidate key or primary key.
+   E.g- create table sampletable(col1 Integer,col2 varchar(20),col3 varchar(50),primary kay(col1,col2));

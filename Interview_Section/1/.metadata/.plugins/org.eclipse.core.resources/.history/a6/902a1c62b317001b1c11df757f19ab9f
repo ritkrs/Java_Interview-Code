@@ -1,0 +1,44 @@
+package abcd;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+public class A {
+	public static void main(String[] args) {
+		ArrayList<Integer> a2=new ArrayList<Integer>();
+		a2.add(1000);
+		a2.add(789);
+
+		ArrayList<Integer> a1=new ArrayList<Integer>();
+		a1.add(1000);
+		a1.add(789);
+		a1.add(354);
+		a1.add(567);
+   List l2=a2.stream().filter(l-> l%2==0).collect(Collectors.toList());
+   System.out.println(a2);
+   Map m1=new HashMap();
+   m1.put(1, "ab");
+   m1.put(2, "bc");
+   m1.put(3, "cd");
+   m1.put(4, "ef");
+   Collection l5=m1.values();
+   System.out.println(l5);
+   Collection l6=m1.values().Stream().collect(Collectors.toList());
+   List l7=l5.
+   
+   
+   
+   
+   
+   
+   
+   
+   
+		
+	}
+
+}

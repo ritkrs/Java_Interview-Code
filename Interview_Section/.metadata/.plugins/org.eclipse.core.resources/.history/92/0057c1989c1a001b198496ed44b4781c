@@ -1,0 +1,5 @@
+package functionalLambda;
+
+public interface A {
+
+}

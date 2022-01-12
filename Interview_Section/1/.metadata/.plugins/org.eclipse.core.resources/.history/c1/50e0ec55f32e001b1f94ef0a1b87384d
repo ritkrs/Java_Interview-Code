@@ -1,0 +1,23 @@
+package abcd;
+
+import java.util.HashMap;
+
+public class Singleton {
+  // private static Singleton s1=new Singleton();
+   private Singleton(String s2) {
+	   this.s2=s2;
+   }
+   public void hello()
+   {
+	   HashMap<Singleton, String> s3=new HashMap<Singleton, String>();
+	   s3.put(new Singleton(s2), "ab");
+   }
+   
+   String s2="abc";
+   public int hashcode()
+   {
+	  
+	   return 10;
+   }
+   
+}

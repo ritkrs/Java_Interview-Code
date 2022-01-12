@@ -1,0 +1,36 @@
+package abcd;
+
+import java.util.List;
+
+public class Emploee {
+	String name;
+	int name;
+	List<String> list;
+	
+	public Emploee(String name, int name, List list) {
+		string=string;
+		this.i=i;
+		l1=l1;
+		
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public List<String> getList() {
+		return list;
+	}
+	public void setList(List<String> list) {
+		this.list = list;
+	}
+	
+
+}

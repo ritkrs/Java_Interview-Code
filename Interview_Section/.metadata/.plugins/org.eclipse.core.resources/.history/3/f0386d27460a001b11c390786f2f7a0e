@@ -1,0 +1,18 @@
+package java8;
+
+import java.util.ArrayList;
+
+public class Mapping {
+	public static void main(String[] args) {
+		ArrayList<String> s1=new ArrayList<String>();
+		s1.add("ab");
+		s1.add("cd");
+		s1.add("ef");
+		s1.add("gh");
+		s1.add("ij");
+		s1.add("kl");
+		System.out.println(s1);
+	}
+	
+
+}

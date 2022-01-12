@@ -1,0 +1,20 @@
+package Hashmap;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class IterateHashMap {
+	public static void main(String[] args) {
+		Map m1=new HashMap();
+		m1.put(1, "ab");
+		m1.put(2, "bc");
+		m1.put(3, "cd");
+		m1.put(4, "ef");
+		m1.put(1, "gh");
+		
+		for (Map.Entry<String,String> entry : gfg.entrySet())  
+            System.out.println("Key = " + entry.getKey() + 
+                             ", Value = " + entry.getValue());
+	}
+
+}

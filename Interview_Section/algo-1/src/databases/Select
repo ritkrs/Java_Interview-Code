@@ -1,0 +1,20 @@
+* select * from person where name='roh';
+* select * from person where id>2;
+* select * from person where id>and name is not null;
+* select * from person where id>1 or name is not null;
+* select salary age from person where id<4;
+* select * from person order by age or asc or desc or name;
+* select name as firstname fromPerson;
+
+* select count (*)from person;
+* select count (name) from person;
+* select count (salary) from person;
+
+* select sum (salary)from person;
+* select sum(salary)/count (salary) from person;
+
+* select max (salary) from person;
+
+* select min(salary) from person;
+
+* select avg(salary) from person;

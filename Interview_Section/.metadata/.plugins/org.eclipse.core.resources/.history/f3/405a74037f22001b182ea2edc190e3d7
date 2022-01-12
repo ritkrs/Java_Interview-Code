@@ -1,0 +1,26 @@
+
+** (1.)Inner join (2.)Left Join (3.) Right Join (4.)Full Join (5.)Cross Join (6.)Self Join
+
+** (1)Cross Join:- When each row of first table is combined with each row from the second table,
+                    known as cartesian join or cross join.
+    E.g:- select * from Matchscore cross join departments;
+
+** (2)Inner Join:- The inner join keyboards selects records that have matching values in both tables.
+   E.g:- select * from student S inner join address A on s.id=a.id;
+   
+** (3)Left outer join:- The left join keyboard returns all records from the left table(table 1),and the matched
+                     records from the right table(table2).
+	Note:- The result is NULL from the right side,if there is no match.
+   E.g:- select * from student S left outer join address A on s.id=a.id;
+
+** (4)Right-Outer Join:- The right outer join keyboard returns all records from the right table(table2),
+                         and the matches records from the left table(table1).   
+	NOTE:-The result is null from left side,when there is no match.
+    E.g:- select * from Student S right outer join Address A on s.id=a.id;
+
+** (5)Full-Outer-Join:-The full outer join keyboard return all records when there is a match in either
+                       left(table1) or right(table2) table records.
+    E.g:- Select * from Student S full outer join Address A on s.id=a.id;
+
+** (6)Self Join:- A self join is a regular join but the table is joined with itself.
+   E.g:- Select * from Student S self join Address A on s.id=a.id;

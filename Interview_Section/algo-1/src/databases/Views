@@ -1,0 +1,12 @@
+What is View:-
+__________________
+* In sql,a view is virtual table based on the result set of an sql statement.  
+* A view can contain rows and columns,just like a real table.
+* The fields in a view are fields from one or more real tables in db.
+* We can also add Sql functions,where and join statements to a view and present the data as if the data were 
+   coming from one single table.
+   (E.g- Create view viewName as select column 1,column 2,from TableName where condition;).
+   Note:- A view always shows up to date table.
+ 
+* The database engine recreates the data,using the views sql statement,every time a user queries a view.
+  E.g:- Create table[Brazil Customers]As select customerName,contactName from customers where country="Brazil";

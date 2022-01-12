@@ -1,0 +1,25 @@
+** SQL INJECTION ATTACK:-
+______________________________
+**  SQL injection is a code injection technique that might destroy your database.
+ *  It is one of the most common web hacking techniques.
+    E.g:- Sql injection usually occurs when we ask a user for input like their userName/userId and
+	instead of a name/id then user gives us a sql statement that we will UNKNOWNINGLY run on our database.
+	
+	Live Eg:-txtUserId = getRequestString("UserId");
+             txtSQL = "SELECT * FROM Users WHERE UserId = " + txtUserId;
+			 
+			 
+		*******SQL Injection Based on 1=1 is Always True******
+		________________________________________________________
+**	The original purpose of the above code was to create an SQL statement to select a user, with a given user id.
+ *  If there is nothing to prevent a user from entering "wrong" input, the user can enter some "smart" input like this:
+	E.g: - SELECT * FROM Users WHERE UserId = 105 OR 1=1;	
+	
+** 	The SQL above is valid and will return ALL rows from the "Users" table, since OR 1=1 is always TRUE.
+**  Does the example above look dangerous? What if the "Users" table contains names and passwords?
+**  The sql statement like this:-
+        SELECT UserId, Name, Password FROM Users WHERE UserId = 105 or 1=1;
+		
+		
+		NOTE:- A hacker might get access to all the user names and passwords in a database, by simply inserting
+		105 OR 1=1 into the input field.

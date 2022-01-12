@@ -1,0 +1,25 @@
+** Stored Procedure:-
+__________________________
+** A group of one or more database statements stored in the database.
+** And it is handled from remote program or by another stored procedure.
+** It's contains query.
+   
+** E.g:- SELECT 
+	product_name, 
+	list_price
+FROM 
+	production.products
+ORDER BY 
+	product_name;
+	
+**	Stored Procedure:- CREATE PROCEDURE uspProductList
+AS
+BEGIN
+    SELECT 
+        product_name, 
+        list_price
+    FROM 
+        production.products
+    ORDER BY 
+        product_name;
+END;

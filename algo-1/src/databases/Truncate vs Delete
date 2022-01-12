@@ -1,0 +1,15 @@
+** Truncate:-
+______________________
+* Truncate is a DDL command.
+* It is not possible to rollback after using TRUNCATE statement.
+* We cannot use WHERE clause with TRUNCATE.
+* Truncate statement is used  to remove all the rows from a table.
+* Truncate statement is faster than delete statement.
+
+** Delete:-
+________________
+* Delete is DML command.
+* We can rollback data after using delete statement.
+* We can use where clause in DELETE command.
+* Delete statement is used to delete a row froma a table.
+* Delete is slower than Truncate statement.

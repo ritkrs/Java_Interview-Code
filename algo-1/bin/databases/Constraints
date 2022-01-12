@@ -1,0 +1,6 @@
+** Sql Constraints:-
+_________________________
+** Constraints can be specified when the table is created with the create table statement,or after table 
+   statement,or after table is created with the ALTER TABLE statement.
+   E.g:- Create table ritesh(id int constraint,Name varchar constraint);
+         E.g:- Not null,Unique,Primary key,foreign key.

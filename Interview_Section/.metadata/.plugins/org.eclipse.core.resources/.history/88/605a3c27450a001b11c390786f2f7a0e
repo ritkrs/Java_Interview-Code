@@ -1,0 +1,10 @@
+package java8;
+
+import java.util.ArrayList;
+
+public class Mapping {
+	public static void main(String[] args) {
+		ArrayList<String> s1=new ArrayList<String>();
+	}
+
+}

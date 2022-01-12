@@ -1,0 +1,2 @@
+** The having clause was added to sql because the WHERE keyboard could not be used with aggregate functions.
+   E.g:- select count (CustomerId),country from customers group by Country having count (CustomerId))>5;

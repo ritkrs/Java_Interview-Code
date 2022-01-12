@@ -1,0 +1,5 @@
+Cartesian-Join:Real Case:-  Lets say that Table1 10 have to records and Table2 have 10 records then its
+   cartesian join will return 10*10=100 records.
+** The cartesian join query must have at least(N-1) join conditions to prevent a cartesain product.
+   Here N is the no of table in the query.
+** The joining condition in cartesian product is always true or it is always missing.	

@@ -1,0 +1,12 @@
+package comparator1;
+
+public class Employee {
+	
+	private String firstName;
+	private String lastName;
+	private int id;
+	public Employee() {
+	
+	}
+
+}

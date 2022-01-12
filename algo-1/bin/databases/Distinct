@@ -1,0 +1,5 @@
+** DISTINCT Keyboard:-
+______________________________________________________________________________________________________
+* The distinct keyboard is used to ensure that the featched value is only a non-duplicate value.
+* The distinct keyboard is used to select distinct,and it always featches different distinct from the 
+  column of the table.(E.g:-select DISTINCT country from customers;)

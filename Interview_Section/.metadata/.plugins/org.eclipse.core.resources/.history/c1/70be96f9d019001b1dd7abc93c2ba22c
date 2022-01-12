@@ -1,0 +1,19 @@
+import com.sun.tools.jdeps.JdepsConfiguration.Builder;
+
+public class User {
+	private final String firstName;
+	private final String lastName;
+	private final int age; //Optional.
+	private final String phone;  //Optional.
+	private final String address;  //Optional.
+	
+	private User(UserBuilder userBuilder)
+	{
+		this.firstName = builder.firstName;
+        this.lastName = builder.lastName;
+        this.age = builder.age;
+        this.phone = builder.phone;
+        this.address = builder.address;
+	}
+
+}

@@ -1,0 +1,5 @@
+** TRIGGER:-
+_________________
+** A Trigger allows us to execute a batch of sql code when an insert,update or delete command is run against
+   a specific table as trigger is said to be the set of actions that are performed whenever commands like
+   insert,update or delete are given through queries.

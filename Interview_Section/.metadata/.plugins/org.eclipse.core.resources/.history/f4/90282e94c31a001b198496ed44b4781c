@@ -1,0 +1,53 @@
+package ImmutableHashMap;
+
+public class Account {
+	private int accountNo;
+	private String holderName;
+	
+	
+	
+	public Account(int accountNo) {
+		super();
+		this.accountNo = accountNo;
+	}
+	public int getAccountNo() {
+		return accountNo;
+	}
+	public void setAccountNo(int accountNo) {
+		this.accountNo = accountNo;
+	}
+	public String getHolderName() {
+		return holderName;
+	}
+	public void setHolderName(String holderName) {
+		this.holderName = holderName;
+	}
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + accountNo;
+		result = prime * result + ((holderName == null) ? 0 : holderName.hashCode());
+		return result;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Account other = (Account) obj;
+		if (accountNo != other.accountNo)
+			return false;
+		if (holderName == null) {
+			if (other.holderName != null)
+				return false;
+		} else if (!holderName.equals(other.holderName))
+			return false;
+		return true;
+	}
+	
+
+}

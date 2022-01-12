@@ -1,0 +1,13 @@
+package abcd;
+
+public class B {
+	String name;
+	int id;
+	public B(String name, int id) {
+		super();
+		this.name = name;
+		this.id = id;
+	}
+	
+
+}

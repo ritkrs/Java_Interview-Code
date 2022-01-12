@@ -1,0 +1,11 @@
+** Foreign Key:-
+______________________
+** If We want to establish the relationship between two tables then we should use the foreign key.
+** A field of one table refers to Primary Key of another tables.
+
+
+
+
+* Foreign key:-Create table student(id int unique,firstName varchar(90),lastName varchar(90),age int);
+  Create table Address(id int unique,houseNo varchar(90),city varchar(90),state varchar(90)
+                       constraint fk1 foreign key(id)reference Student(id));

@@ -1,0 +1,8 @@
+** Foreign Key:-
+______________________
+* Combination of not null and unique:- Create table tab4(id int not null,name varchar(90)unique);
+* Composite Unique key:-   Create table tab1(id int,name varchar(90),constraint Tuk1 unique(id,name));
+* Composite primary key:-  Create table tab1(id int,name varchar(90),constraint tpk1 primary key(id,name));
+* Foreign key:-Create table student(id int unique,firstName varchar(90),lastName varchar(90),age int);
+  Create table Address(id int unique,houseNo varchar(90),city varchar(90),state varchar(90)
+                       constraint fk1 foreign key(id)reference Student(id));

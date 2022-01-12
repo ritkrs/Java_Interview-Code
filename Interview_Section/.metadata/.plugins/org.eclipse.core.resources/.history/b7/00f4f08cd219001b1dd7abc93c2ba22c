@@ -1,0 +1,25 @@
+
+public class UserBuilder {
+	private final String firstName;
+	private final String lastName;
+	private  String age;
+	private  String phone;
+	private  String address;
+	
+	public UserBuilder(String firstName,String lastName)
+	{
+		this.firstName=firstName;
+		this.lastName=lastName;
+	}
+	public UserBuilder age(int age)
+	{
+		this.age=age;
+		return this;
+	}
+	public UserBuilder phone(String phone)
+	{
+		this.phone=phone;
+		return this;
+	}
+
+}

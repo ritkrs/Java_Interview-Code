@@ -1,0 +1,11 @@
+** Clustered index:-
+_________________________
+* The clustered index is used to reorder the physical order of the table and search based on the key values.
+  Each table can have only one clustered index.
+  
+  
+  ** Non-Clustered index:-
+__________________________
+* The reason to create non clustered index is searching the data.We will know that clustered indexes are
+  created automatically primary keys are generated,bot non-clustered indexes are created when multiple
+  joins conditions and various filters are used in the query.

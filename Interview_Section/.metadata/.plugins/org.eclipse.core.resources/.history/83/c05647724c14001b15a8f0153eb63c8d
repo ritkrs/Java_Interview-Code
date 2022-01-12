@@ -1,0 +1,11 @@
+package Comparator;
+
+import java.util.ArrayList;
+
+public class MainClass {
+	public static void main(String[] args) {
+		ArrayList<Employee> a1=new ArrayList<Employee>();
+		a1.add(new Employee(1, "Ritesh", "kumar"));
+	}
+
+}

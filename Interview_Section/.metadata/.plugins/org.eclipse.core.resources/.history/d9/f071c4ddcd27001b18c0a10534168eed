@@ -1,0 +1,15 @@
+package threadPool;
+
+class ThreadYieldDemo
+{
+	public static void main(String[] args) throws InterruptedException
+	{
+		MyThread t=new MyThread();
+		t.start();
+		for(int i=0;i<5;i++)
+		{
+			System.out.println("main thread");
+			t.join();
+			}
+		}
+	}

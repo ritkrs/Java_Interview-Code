@@ -1,0 +1,4 @@
+** Clustered index:-
+_________________________
+* The clustered index is used to reorder the physical order of the table and search based on the key values.
+  Each table can have only one clustered index.

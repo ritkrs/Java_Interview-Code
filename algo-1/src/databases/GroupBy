@@ -1,0 +1,8 @@
+** Group BY:-
+________________
+** The group by statement is often used with aggregate functions(count,max,min,sum,avg) to group the result
+   set by one or more columns.
+   E.g:- select count(customerId),country
+         from customers
+         group by country
+         order by count(countryId)desc;

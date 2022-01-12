@@ -1,0 +1,5 @@
+package threadedSingleton;
+
+public class Asingleton {
+
+}
